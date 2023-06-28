@@ -1,5 +1,5 @@
 import network
-from machine import Pin, Timer
+from machine import Pin
 import ujson as json
 
 led = machine.Pin('LED', machine.Pin.OUT)
